@@ -21,7 +21,7 @@ Search = () => {
 getWeather = (city) => {
   const URL = "https://api.openweathermap.org/data/2.5/weather";
   const API_KEY = "1027bc06f9bab8b873531fc2ccbb9f2d";
-  //please your own key from openWeather
+  //please generate your own key from openWeather
 
   fetch(`${URL}?q=${city}&appid=${API_KEY}`)
     .then((resp) => {
